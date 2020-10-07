@@ -1,3 +1,16 @@
 h1{
    text-align:center;
 }
+
+body{
+    background-color:red;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+}
+
