@@ -5,12 +5,26 @@ h1{
 body{
     background-color:red;
     display: flex;
+    flex-basis: 90%;
+    max-width: 500px;
     flex-direction: column;
 }
 
 nav{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly ;
+    justify-content: space-evenly;
 }
 
+/*.team{*/
+/*    flex-basis: 100%;*/
+/*}*/
+
+.retro-img{
+    max-width: 300px;
+}
+
+img {
+    max-width:100%;
+    
+}
